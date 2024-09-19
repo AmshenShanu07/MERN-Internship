@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 182, 241);
+}
+
+
+button {
+  outline: none;
+  color: white;
+  background-color: rgb(80, 80, 255);
+  border: none;
+  min-height: 30px;
+  min-width: 50px;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.form_container {
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.todo_input {
+  outline: none;
+  border: 1px solid black ;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.list_container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+.list_body {
+  background-color: rgb(179, 179, 179);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  border-radius: 10px;
+}
+
+.list_actions {
+  display: flex;
+  align-items: center;
+}
+
+.done_checkbox {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.delete_button {
+  background-color: rgb(255, 71, 71);
+}
